@@ -12,3 +12,8 @@ surbur(function(request, response) {
   console.log(request.insa);
   console.log(response.insa);
 })
+
+const add = surbur((request, response) => {
+  console.log(request.insa);
+  console.log(response.insa);
+})
